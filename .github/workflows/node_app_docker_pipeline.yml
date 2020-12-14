@@ -66,8 +66,6 @@ jobs:
             admiralawkbar/python-builder:v1
             ghcr.io/lukaspersonal/actions-demo:latest
             ghcr.io/lukaspersonal/actions-demo:v1
-            ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:latest
-            ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:v1
   
     
     
